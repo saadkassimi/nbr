@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>404 vuln report shad999</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    .image-container {
+      text-align: center;
+    }
+    
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .title {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="image-container">
+    <img src="https://i.imgur.com/5o8xi67.png" alt="Image">
+  </div>
+  <div class="title">
+    404 vuln report by shad999 
+  </div>
+</body>
+</html>
